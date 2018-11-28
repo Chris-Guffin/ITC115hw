@@ -1,4 +1,5 @@
 //package week8;
+// Create a class to use to create objects with. use get and set methods and define the toString method.
 
 import java.text.NumberFormat;
 
