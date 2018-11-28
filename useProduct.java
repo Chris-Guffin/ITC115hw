@@ -1,6 +1,7 @@
-package week8;
+//package week8;
 
-//client program
+//client program 
+//use the Product class to create 3 new products, then use the toString method to print out the info of each object
 public class useProduct {
 
 	public static void main(String[] args) {
