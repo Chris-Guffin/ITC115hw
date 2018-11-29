@@ -25,7 +25,30 @@ public class Product {
 	public String getCode() {
 		return code;
 	}
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
 	
+	
+	public static int getCount() {
+		return count;
+	}
+
+	public static void setCount(int count) {
+		Product.count = count;
+	}
 	public String getPriceFormatted() {
 	    String formattedPrice = NumberFormat.getCurrencyInstance().format(this.price);
 	    return formattedPrice;
