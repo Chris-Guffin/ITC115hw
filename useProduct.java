@@ -8,11 +8,18 @@ public class useProduct {
 		Product p1 = new Product("YYY", "Book", 14.99);
 		Product p2 = new Product("ZZZ", "Milk", 3.99);
 		Product p3 = new Product("WWW", "Wine", 9.99);
-
+		
+		//using the .set method
+		p2.setPrice(2.99);
+		
+		//using the .get method
+		System.out.println("Product Count: " + p1.getCount());
+		
 		//print Product info
 		System.out.println(p1.toString());
 		System.out.println(p2.toString());
 		System.out.println(p3.toString());
+		
 	}
 
 }
